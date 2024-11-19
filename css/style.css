@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
     
-
-
 body{
     background-color: lightgrey;
 }
@@ -24,11 +22,15 @@ header img{
 
 main{
     background-color: #ffff;
-    margin: 3% 21% 0% 21%;
+    margin-top: 3%;
+    margin-left: 21%;
+    margin-right: 21%;
+    height: 600px;
 }
 
 .add{
     margin-left: 12%;
+    padding-top: 5%;
 }
 
 main button{
@@ -50,13 +52,18 @@ input{
     font-size: 20px;
 }
 
-.triangolo::after{
+.triangolo::before{
     content: "\0025BE"; 
     font-size:  15px;
 }
 
+.subtext{
+    font-size: 15px;
+    padding-bottom: 3%;
+}
 
-.check::after{
+
+.check::before{
     content: "\002713";
     font-size: 5px;
     border-radius: 50%;
@@ -64,49 +71,58 @@ input{
     color: lightgreen;
     line-height: 100%;
     vertical-align: middle;
+    margin-left: 4px;
 }
 
-.ex::after{
+.ex::before{
     content: "\000078";
     font-size: 5px;
     border-radius: 50%;
-    border-width: 1px solid red;
+    border: 1px solid red;
     color: red;
     line-height: 100%;
     vertical-align: middle;
+    margin-left: 4px;
 }
 
 .label{
     border-radius: 5px;
     color: #fff;
+    font-size: 10px;
 }
 
 .label-blu{
     border-color: #45AFEB;
     background-color: #45AFEB;
+    width: 50px;
 }
 
 .label-viola{
     border-color: #9E75E7;
     background-color: #9E75E7;
+    width: 55px;
 }
 
 .label-arancione{
     border-color: #F09E35;
     background-color: #F09E35;
+    width: 45px;
 }
 
 .label-verde{
     border-color: #63BFA7;
     background-color: #63BFA7;
+    width: 60px;
 }
 
 .label-rosa{
     border-color: #DA649E;
     background-color: #DA649E;
+    width: 53px;
 }
 
 .label-oliva{
     border-color: #ACC725;
     background-color: #ACC725;
+    width: 35px;
 }
