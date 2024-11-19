@@ -33,18 +33,21 @@ main{
     padding-top: 5%;
 }
 
-main button{
+#blue{
     background-color: #47ABF0;
     width: 70px;
     border-color: #47ABF0;
     border-radius: 3px;
     color: #fff;
+    padding: 2px 3px;
+    margin-right: 3px;
 }   
 
 input{
     color: lightgrey;
     width: 90px;
-    padding: 0 5px;
+    padding-left: 5px;
+    padding-top: 3px;
 }
 
 .contenuto{
