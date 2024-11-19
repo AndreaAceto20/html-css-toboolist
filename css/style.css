@@ -47,6 +47,16 @@ input{
     padding: 0 5px;
 }
 
+.contenuto{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.triangolo::after{
+    content: "\0025BE"; 
+    font-size:  15px;
+}
+
 .label{
     border-radius: 5px;
 }
