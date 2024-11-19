@@ -24,12 +24,9 @@ header img{
 
 main{
     background-color: #ffff;
-    margin-left: 21%;
-    margin-right: 21%;
-    margin-top: 3%;
+    margin: 3% 21% 0% 21%;
 }
 
-/* non ho idea del perchè non funziona con la classe "contenuto" */
 .add{
     margin-left: 12%;
 }
@@ -90,26 +87,26 @@ input{
 }
 
 .label-viola{
-    border-color: ;
-    background-color: ;
+    border-color: #9E75E7;
+    background-color: #9E75E7;
 }
 
 .label-arancione{
-    border-color: ;
-    background-color: ;
+    border-color: #F09E35;
+    background-color: #F09E35;
 }
 
 .label-verde{
-    border-color: ;
-    background-color: ;
+    border-color: #63BFA7;
+    background-color: #63BFA7;
 }
 
 .label-rosa{
-    border-color: ;
-    background-color: ;
+    border-color: #DA649E;
+    background-color: #DA649E;
 }
 
 .label-oliva{
-    border-color: ;
-    background-color: ;
+    border-color: #ACC725;
+    background-color: #ACC725;
 }
