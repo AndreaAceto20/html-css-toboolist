@@ -29,7 +29,7 @@ main{
 }
 
 .add{
-    margin-left: 12%;
+    padding-left: 12%;
     padding-top: 5%;
 }
 
@@ -62,67 +62,78 @@ input{
     padding-bottom: 3%;
 }
 
+/* .simbol{
+    font-size: 5px;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 100%;
+    vertical-align: middle;
+    margin-left: 4px;
+} */
 
 .check::before{
     content: "\002713";
     font-size: 5px;
+    border: 1px solid;
     border-radius: 50%;
-    border: 1px solid lightgreen;
-    color: lightgreen;
     line-height: 100%;
     vertical-align: middle;
     margin-left: 4px;
+    border-color:  lightgreen;
+    color: lightgreen;
 }
 
 .ex::before{
     content: "\000078";
     font-size: 5px;
+    border: 1px solid;
     border-radius: 50%;
-    border: 1px solid red;
-    color: red;
     line-height: 100%;
     vertical-align: middle;
     margin-left: 4px;
+    border-color: red;
+    color: red;
 }
 
 .label{
     border-radius: 5px;
     color: #fff;
     font-size: 10px;
+    padding: 0 3px;
 }
 
 .label-blu{
     border-color: #45AFEB;
     background-color: #45AFEB;
-    width: 50px;
+    
 }
 
 .label-viola{
     border-color: #9E75E7;
     background-color: #9E75E7;
-    width: 55px;
+    
+
 }
 
 .label-arancione{
     border-color: #F09E35;
     background-color: #F09E35;
-    width: 45px;
 }
 
 .label-verde{
     border-color: #63BFA7;
     background-color: #63BFA7;
-    width: 60px;
+    
 }
 
 .label-rosa{
     border-color: #DA649E;
     background-color: #DA649E;
-    width: 53px;
+    
 }
 
 .label-oliva{
     border-color: #ACC725;
     background-color: #ACC725;
-    width: 35px;
+
 }
