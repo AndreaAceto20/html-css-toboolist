@@ -7,14 +7,13 @@
 
 
 body{
-    background-color: #fff;
+    background-color: lightgrey;
 }
 
 header{
+    background-color: #ffff;
     padding-left: 2%;
-    height: 50px;
 }
-
 header img{
     padding-top: 2%;
 }
@@ -24,5 +23,60 @@ header img{
 }
 
 main{
-    padding: 5% 20% 20% 0;
+    background-color: #ffff;
+    margin-left: 21%;
+    margin-right: 21%;
+    margin-top: 3%;
+}
+
+#add{
+    margin-left: 12%;
+}
+
+main button{
+    background-color: #47ABF0;
+    width: 70px;
+    border-color: #47ABF0;
+    border-radius: 3px;
+    color: #fff;
+}
+
+input{
+    color: lightgrey;
+    width: 90px;
+    padding: 0 5px;
+}
+
+.label{
+    border-radius: 5px;
+}
+
+.label-blu{
+    border-color: ;
+    background-color: ;
+}
+
+.label-viola{
+    border-color: ;
+    background-color: ;
+}
+
+.label-arancione{
+    border-color: ;
+    background-color: ;
+}
+
+.label-verde{
+    border-color: ;
+    background-color: ;
+}
+
+.label-rosa{
+    border-color: ;
+    background-color: ;
+}
+
+.label-oliva{
+    border-color: ;
+    background-color: ;
 }
