@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,38 +10,50 @@ body{
 
 header{
     background-color: #ffff;
-    padding-left: 2%;
-}
-header img{
-    padding-top: 2%;
+    padding: 2%;
 }
 
-#titolo{
-    font-size: 50px;
+header img{
+    line-height: 100%;
+    vertical-align: middle;
+    padding-left: 10px;
 }
+
+
+#titolo{
+    font-size: 35px;
+    line-height: 100%;
+    vertical-align: middle;
+
+
+}
+
 
 main{
     background-color: #ffff;
+    margin: auto;
     margin-top: 3%;
-    margin-left: 21%;
-    margin-right: 21%;
+    width: 70%;
     height: 600px;
+    padding-left: 12%;
 }
 
-.add{
-    padding-left: 12%;
-    padding-top: 5%;
+button{
+    border-radius: 3px;
+    padding: 1%;
+    border: none;
+
 }
 
 #blue{
     background-color: #47ABF0;
-    width: 70px;
-    border-color: #47ABF0;
-    border-radius: 3px;
     color: #fff;
-    padding: 2px 3px;
-    margin-right: 3px;
 }   
+
+.grey{
+    background-color: #fff;
+    color: grey;
+}
 
 input{
     color: lightgrey;
@@ -56,8 +68,9 @@ input{
 }
 
 .triangolo::before{
-    content: "\0025BE"; 
+    content: "\25BC"; 
     font-size:  15px;
+    margin-right: 5px;
 }
 
 .subtext{
@@ -65,35 +78,26 @@ input{
     padding-bottom: 3%;
 }
 
-/* .simbol{
-    font-size: 5px;
-    border: 1px solid;
-    border-radius: 50%;
+.simbol{
+    font-size: 10px;
     line-height: 100%;
     vertical-align: middle;
-    margin-left: 4px;
-} */
+}
 
 .check::before{
-    content: "\002713";
-    font-size: 5px;
+    content: "\2713";
     border: 1px solid;
     border-radius: 50%;
-    line-height: 100%;
-    vertical-align: middle;
-    margin-left: 4px;
+    padding: 3px 3px;
     border-color:  lightgreen;
     color: lightgreen;
 }
 
 .ex::before{
-    content: "\000078";
-    font-size: 5px;
+    content: "\78";
     border: 1px solid;
     border-radius: 50%;
-    line-height: 100%;
-    vertical-align: middle;
-    margin-left: 4px;
+    padding: 3px 4.5px;
     border-color: red;
     color: red;
 }
@@ -103,40 +107,29 @@ input{
     color: #fff;
     font-size: 10px;
     padding: 0 3px;
+    margin-left: 5px;
 }
 
 .label-blu{
-    border-color: #45AFEB;
     background-color: #45AFEB;
-    
 }
 
 .label-viola{
-    border-color: #9E75E7;
     background-color: #9E75E7;
-    
-
 }
 
 .label-arancione{
-    border-color: #F09E35;
     background-color: #F09E35;
 }
 
 .label-verde{
-    border-color: #63BFA7;
     background-color: #63BFA7;
-    
 }
 
 .label-rosa{
-    border-color: #DA649E;
     background-color: #DA649E;
-    
 }
 
 .label-oliva{
-    border-color: #ACC725;
     background-color: #ACC725;
-
 }
